@@ -32,4 +32,6 @@ jobs:
           git diff --quiet && git diff --staged --quiet || git commit -m "Aggiorna dati Garmin"
           git pull --rebase --autostash origin main
           git push
+            - name: Purge jsDelivr cache
+              run: curl -s "https://purge.jsdelivr.net/gh/diego-berga/garmin-data@main/data/data.json"
 
