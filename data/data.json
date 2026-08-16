@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T10:29:55.365401",
+  "last_updated": "2026-08-16T10:34:27.748251",
   "current_metrics": {
     "vo2max_running": null,
     "race_prediction_5k_sec": 1114,
@@ -14,7 +14,7 @@
       "date": "2026-08-16",
       "resting_hr": 53,
       "steps": 78,
-      "calories_total": 1128.0,
+      "calories_total": 1147.0,
       "calories_active": 0.0,
       "floors_climbed": null,
       "intensity_minutes_moderate": null,
@@ -30,7 +30,7 @@
       "body_battery_min": 19,
       "body_battery_max": 77,
       "body_battery_charged": 59,
-      "body_battery_drained": 3,
+      "body_battery_drained": 4,
       "stress_avg": 17,
       "stress_max": 74,
       "respiration_avg": 14.0,
