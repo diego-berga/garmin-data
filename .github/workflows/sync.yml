@@ -22,7 +22,7 @@ jobs:
           GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
         run: python sync_garmin.py
 
-            - run: |
+       - run: 
           git config --global user.name 'garmin-bot'
           git config --global user.email 'bot@users.noreply.github.com'
           git pull --rebase origin main
