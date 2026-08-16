@@ -1,3 +1,4 @@
+
 name: Sync Garmin Data
 
 on:
@@ -17,16 +18,17 @@ jobs:
 
       - run: pip install garminconnect
 
-      - env:
+      - name: Run sync script
+        env:
           GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
           GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
         run: python sync_garmin.py
 
-       - run: 
+      - name: Commit and push
+        run: |
           git config --global user.name 'garmin-bot'
           git config --global user.email 'bot@users.noreply.github.com'
           git pull --rebase origin main
           git add data/data.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Aggiorna dati Garmin"
           git push
-
