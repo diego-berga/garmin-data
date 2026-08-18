@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-18T06:00:38.212501",
+  "last_updated": "2026-08-18T20:24:44.658393",
   "current_metrics": {
-    "vo2max_running": null,
-    "race_prediction_5k_sec": 1119,
-    "race_prediction_10k_sec": 2359,
-    "race_prediction_half_marathon_sec": 5447,
-    "race_prediction_marathon_sec": 12107,
+    "vo2max_running": 56.0,
+    "race_prediction_5k_sec": 1113,
+    "race_prediction_10k_sec": 2327,
+    "race_prediction_half_marathon_sec": 5349,
+    "race_prediction_marathon_sec": 12034,
     "endurance_score": null,
     "hill_score": null
   },
@@ -13,9 +13,9 @@
     {
       "date": "2026-08-18",
       "resting_hr": 52,
-      "steps": 1505,
-      "calories_total": 688.0,
-      "calories_active": 33.0,
+      "steps": 34751,
+      "calories_total": 5408.0,
+      "calories_active": 3349.0,
       "floors_climbed": null,
       "intensity_minutes_moderate": null,
       "intensity_minutes_vigorous": null,
@@ -27,17 +27,17 @@
       "sleep_awake_min": 1.0,
       "hrv": 70,
       "hrv_status": "BALANCED",
-      "body_battery_min": 22,
+      "body_battery_min": 5,
       "body_battery_max": 68,
-      "body_battery_charged": 47,
-      "body_battery_drained": 16,
-      "stress_avg": 23,
-      "stress_max": 93,
-      "respiration_avg": 14.0,
+      "body_battery_charged": 48,
+      "body_battery_drained": 70,
+      "stress_avg": 45,
+      "stress_max": 99,
+      "respiration_avg": 15.0,
       "spo2_avg": null,
       "spo2_lowest": null,
-      "training_readiness_score": 39,
-      "training_readiness_level": "LOW"
+      "training_readiness_score": 1,
+      "training_readiness_level": "POOR"
     },
     {
       "date": "2026-08-17",
@@ -1752,6 +1752,210 @@
     }
   ],
   "activities": [
+    {
+      "id": 24022575776,
+      "date": "2026-08-18",
+      "type": "trail_running",
+      "name": "Carona Trail Running",
+      "distance_km": 26.71,
+      "duration_min": 318.2,
+      "avg_pace_min_km": "11:54",
+      "avg_hr": 156.0,
+      "max_hr": 183.0,
+      "elevation_gain": 1904.0,
+      "elevation_loss": 1929.0,
+      "calories": 3272.0,
+      "avg_cadence": 88.328125,
+      "vo2max_estimate": 55.0,
+      "training_effect_aerobic": 4.900000095367432,
+      "training_effect_anaerobic": 0.10000000149011612,
+      "hr_zones": [
+        {
+          "zone": 1,
+          "seconds": 3909.414
+        },
+        {
+          "zone": 2,
+          "seconds": 10981.869
+        },
+        {
+          "zone": 3,
+          "seconds": 3998.71
+        },
+        {
+          "zone": 4,
+          "seconds": 88.998
+        },
+        {
+          "zone": 5,
+          "seconds": 0.0
+        }
+      ],
+      "splits": [
+        {
+          "lap": 1,
+          "distance_km": 1.0,
+          "duration_min": 10.45,
+          "avg_hr": 137.0
+        },
+        {
+          "lap": 2,
+          "distance_km": 1.0,
+          "duration_min": 11.72,
+          "avg_hr": 159.0
+        },
+        {
+          "lap": 3,
+          "distance_km": 1.0,
+          "duration_min": 10.18,
+          "avg_hr": 160.0
+        },
+        {
+          "lap": 4,
+          "distance_km": 1.0,
+          "duration_min": 9.46,
+          "avg_hr": 143.0
+        },
+        {
+          "lap": 5,
+          "distance_km": 1.0,
+          "duration_min": 10.18,
+          "avg_hr": 145.0
+        },
+        {
+          "lap": 6,
+          "distance_km": 1.0,
+          "duration_min": 11.36,
+          "avg_hr": 166.0
+        },
+        {
+          "lap": 7,
+          "distance_km": 1.0,
+          "duration_min": 11.45,
+          "avg_hr": 145.0
+        },
+        {
+          "lap": 8,
+          "distance_km": 1.0,
+          "duration_min": 10.27,
+          "avg_hr": 142.0
+        },
+        {
+          "lap": 9,
+          "distance_km": 1.0,
+          "duration_min": 10.91,
+          "avg_hr": 135.0
+        },
+        {
+          "lap": 10,
+          "distance_km": 1.0,
+          "duration_min": 13.97,
+          "avg_hr": 149.0
+        },
+        {
+          "lap": 11,
+          "distance_km": 1.0,
+          "duration_min": 21.09,
+          "avg_hr": 155.0
+        },
+        {
+          "lap": 12,
+          "distance_km": 1.0,
+          "duration_min": 22.15,
+          "avg_hr": 161.0
+        },
+        {
+          "lap": 13,
+          "distance_km": 1.0,
+          "duration_min": 25.05,
+          "avg_hr": 161.0
+        },
+        {
+          "lap": 14,
+          "distance_km": 1.0,
+          "duration_min": 49.79,
+          "avg_hr": 151.0
+        },
+        {
+          "lap": 15,
+          "distance_km": 1.0,
+          "duration_min": 10.45,
+          "avg_hr": 160.0
+        },
+        {
+          "lap": 16,
+          "distance_km": 1.0,
+          "duration_min": 9.7,
+          "avg_hr": 167.0
+        },
+        {
+          "lap": 17,
+          "distance_km": 1.0,
+          "duration_min": 9.46,
+          "avg_hr": 168.0
+        },
+        {
+          "lap": 18,
+          "distance_km": 1.0,
+          "duration_min": 8.12,
+          "avg_hr": 172.0
+        },
+        {
+          "lap": 19,
+          "distance_km": 1.0,
+          "duration_min": 11.9,
+          "avg_hr": 165.0
+        },
+        {
+          "lap": 20,
+          "distance_km": 1.0,
+          "duration_min": 5.33,
+          "avg_hr": 170.0
+        },
+        {
+          "lap": 21,
+          "distance_km": 1.0,
+          "duration_min": 5.43,
+          "avg_hr": 174.0
+        },
+        {
+          "lap": 22,
+          "distance_km": 1.0,
+          "duration_min": 5.53,
+          "avg_hr": 162.0
+        },
+        {
+          "lap": 23,
+          "distance_km": 1.0,
+          "duration_min": 5.27,
+          "avg_hr": 169.0
+        },
+        {
+          "lap": 24,
+          "distance_km": 1.0,
+          "duration_min": 5.04,
+          "avg_hr": 170.0
+        },
+        {
+          "lap": 25,
+          "distance_km": 1.0,
+          "duration_min": 5.18,
+          "avg_hr": 160.0
+        },
+        {
+          "lap": 26,
+          "distance_km": 1.0,
+          "duration_min": 5.06,
+          "avg_hr": 161.0
+        },
+        {
+          "lap": 27,
+          "distance_km": 0.71,
+          "duration_min": 3.69,
+          "avg_hr": 167.0
+        }
+      ]
+    },
     {
       "id": 23977871219,
       "date": "2026-08-14",
@@ -3951,126 +4155,6 @@
           "distance_km": 8.25,
           "duration_min": 40.03,
           "avg_hr": 145.0
-        }
-      ]
-    },
-    {
-      "id": 23162164821,
-      "date": "2026-06-07",
-      "type": "running",
-      "name": "Alzano Lombardo Corsa",
-      "distance_km": 12.02,
-      "duration_min": 55.9,
-      "avg_pace_min_km": "4:39",
-      "avg_hr": 177.0,
-      "max_hr": 189.0,
-      "elevation_gain": 52.0,
-      "elevation_loss": 54.0,
-      "calories": 911.0,
-      "avg_cadence": 165.15625,
-      "vo2max_estimate": 59.0,
-      "training_effect_aerobic": 4.199999809265137,
-      "training_effect_anaerobic": 0.10000000149011612,
-      "hr_zones": [
-        {
-          "zone": 1,
-          "seconds": 34.0
-        },
-        {
-          "zone": 2,
-          "seconds": 278.548
-        },
-        {
-          "zone": 3,
-          "seconds": 854.905
-        },
-        {
-          "zone": 4,
-          "seconds": 2110.119
-        },
-        {
-          "zone": 5,
-          "seconds": 71.143
-        }
-      ],
-      "splits": [
-        {
-          "lap": 1,
-          "distance_km": 1.0,
-          "duration_min": 5.01,
-          "avg_hr": 155.0
-        },
-        {
-          "lap": 2,
-          "distance_km": 1.0,
-          "duration_min": 4.89,
-          "avg_hr": 171.0
-        },
-        {
-          "lap": 3,
-          "distance_km": 1.0,
-          "duration_min": 4.84,
-          "avg_hr": 175.0
-        },
-        {
-          "lap": 4,
-          "distance_km": 1.0,
-          "duration_min": 4.77,
-          "avg_hr": 178.0
-        },
-        {
-          "lap": 5,
-          "distance_km": 1.0,
-          "duration_min": 4.69,
-          "avg_hr": 180.0
-        },
-        {
-          "lap": 6,
-          "distance_km": 1.0,
-          "duration_min": 4.69,
-          "avg_hr": 180.0
-        },
-        {
-          "lap": 7,
-          "distance_km": 1.0,
-          "duration_min": 4.58,
-          "avg_hr": 173.0
-        },
-        {
-          "lap": 8,
-          "distance_km": 1.0,
-          "duration_min": 4.52,
-          "avg_hr": 180.0
-        },
-        {
-          "lap": 9,
-          "distance_km": 1.0,
-          "duration_min": 4.58,
-          "avg_hr": 182.0
-        },
-        {
-          "lap": 10,
-          "distance_km": 1.0,
-          "duration_min": 4.52,
-          "avg_hr": 184.0
-        },
-        {
-          "lap": 11,
-          "distance_km": 1.0,
-          "duration_min": 4.41,
-          "avg_hr": 186.0
-        },
-        {
-          "lap": 12,
-          "distance_km": 1.0,
-          "duration_min": 4.31,
-          "avg_hr": 188.0
-        },
-        {
-          "lap": 13,
-          "distance_km": 0.02,
-          "duration_min": 0.07,
-          "avg_hr": 189.0
         }
       ]
     }
