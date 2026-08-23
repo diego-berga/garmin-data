@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-08-23T06:00:44.569296",
+  "last_updated": "2026-08-23T23:00:42.616325",
   "current_metrics": {
-    "vo2max_running": null,
-    "race_prediction_5k_sec": 1126,
-    "race_prediction_10k_sec": 2350,
-    "race_prediction_half_marathon_sec": 5414,
-    "race_prediction_marathon_sec": 12193,
+    "vo2max_running": 55.0,
+    "race_prediction_5k_sec": 1120,
+    "race_prediction_10k_sec": 2345,
+    "race_prediction_half_marathon_sec": 5404,
+    "race_prediction_marathon_sec": 12177,
     "endurance_score": null,
     "hill_score": null
   },
   "daily": [
     {
       "date": "2026-08-23",
-      "resting_hr": 58,
-      "steps": 1022,
-      "calories_total": 221.0,
-      "calories_active": 5.0,
+      "resting_hr": 56,
+      "steps": 12670,
+      "calories_total": 3122.0,
+      "calories_active": 912.0,
       "floors_climbed": null,
       "intensity_minutes_moderate": null,
       "intensity_minutes_vigorous": null,
-      "sleep_hours": null,
-      "sleep_score": null,
-      "sleep_deep_min": null,
-      "sleep_light_min": null,
+      "sleep_hours": 5.48,
+      "sleep_score": 56,
+      "sleep_deep_min": 90.0,
+      "sleep_light_min": 239.0,
       "sleep_rem_min": null,
-      "sleep_awake_min": null,
-      "hrv": null,
-      "hrv_status": null,
-      "body_battery_min": 14,
-      "body_battery_max": 18,
-      "body_battery_charged": 2,
-      "body_battery_drained": 4,
-      "stress_avg": 33,
-      "stress_max": 69,
-      "respiration_avg": 13.0,
+      "sleep_awake_min": 8.0,
+      "hrv": 60,
+      "hrv_status": "BALANCED",
+      "body_battery_min": 5,
+      "body_battery_max": 64,
+      "body_battery_charged": 53,
+      "body_battery_drained": 66,
+      "stress_avg": 43,
+      "stress_max": 96,
+      "respiration_avg": 14.0,
       "spo2_avg": null,
       "spo2_lowest": null,
-      "training_readiness_score": 75,
-      "training_readiness_level": "HIGH"
+      "training_readiness_score": 32,
+      "training_readiness_level": "LOW"
     },
     {
       "date": "2026-08-22",
@@ -1752,6 +1752,102 @@
     }
   ],
   "activities": [
+    {
+      "id": 24081287012,
+      "date": "2026-08-23",
+      "type": "running",
+      "name": "Castione della Presolana Corsa",
+      "distance_km": 8.01,
+      "duration_min": 48.8,
+      "avg_pace_min_km": "6:05",
+      "avg_hr": 154.0,
+      "max_hr": 192.0,
+      "elevation_gain": 207.0,
+      "elevation_loss": 200.0,
+      "calories": 618.0,
+      "avg_cadence": 156.21875,
+      "vo2max_estimate": 54.0,
+      "training_effect_aerobic": 3.299999952316284,
+      "training_effect_anaerobic": 0.0,
+      "hr_zones": [
+        {
+          "zone": 1,
+          "seconds": 586.759
+        },
+        {
+          "zone": 2,
+          "seconds": 1817.419
+        },
+        {
+          "zone": 3,
+          "seconds": 273.423
+        },
+        {
+          "zone": 4,
+          "seconds": 202.105
+        },
+        {
+          "zone": 5,
+          "seconds": 34.003
+        }
+      ],
+      "splits": [
+        {
+          "lap": 1,
+          "distance_km": 1.0,
+          "duration_min": 5.22,
+          "avg_hr": 130.0
+        },
+        {
+          "lap": 2,
+          "distance_km": 1.0,
+          "duration_min": 6.0,
+          "avg_hr": 145.0
+        },
+        {
+          "lap": 3,
+          "distance_km": 1.0,
+          "duration_min": 5.65,
+          "avg_hr": 152.0
+        },
+        {
+          "lap": 4,
+          "distance_km": 1.0,
+          "duration_min": 5.57,
+          "avg_hr": 154.0
+        },
+        {
+          "lap": 5,
+          "distance_km": 1.0,
+          "duration_min": 6.32,
+          "avg_hr": 148.0
+        },
+        {
+          "lap": 6,
+          "distance_km": 1.0,
+          "duration_min": 6.59,
+          "avg_hr": 158.0
+        },
+        {
+          "lap": 7,
+          "distance_km": 1.0,
+          "duration_min": 6.45,
+          "avg_hr": 160.0
+        },
+        {
+          "lap": 8,
+          "distance_km": 1.0,
+          "duration_min": 6.94,
+          "avg_hr": 178.0
+        },
+        {
+          "lap": 9,
+          "distance_km": 0.01,
+          "duration_min": 0.08,
+          "avg_hr": 190.0
+        }
+      ]
+    },
     {
       "id": 24022575776,
       "date": "2026-08-18",
@@ -4107,54 +4203,6 @@
           "distance_km": 0.08,
           "duration_min": 0.28,
           "avg_hr": 187.0
-        }
-      ]
-    },
-    {
-      "id": 23177714435,
-      "date": "2026-06-08",
-      "type": "treadmill_running",
-      "name": "Corsa su tapis roulant",
-      "distance_km": 8.0,
-      "duration_min": 40.0,
-      "avg_pace_min_km": "5:00",
-      "avg_hr": 145.0,
-      "max_hr": 161.0,
-      "elevation_gain": null,
-      "elevation_loss": null,
-      "calories": 504.0,
-      "avg_cadence": 159.25,
-      "vo2max_estimate": null,
-      "training_effect_aerobic": 2.5,
-      "training_effect_anaerobic": 0.0,
-      "hr_zones": [
-        {
-          "zone": 1,
-          "seconds": 624.002
-        },
-        {
-          "zone": 2,
-          "seconds": 1749.891
-        },
-        {
-          "zone": 3,
-          "seconds": 0.0
-        },
-        {
-          "zone": 4,
-          "seconds": 0.0
-        },
-        {
-          "zone": 5,
-          "seconds": 0.0
-        }
-      ],
-      "splits": [
-        {
-          "lap": 1,
-          "distance_km": 8.25,
-          "duration_min": 40.03,
-          "avg_hr": 145.0
         }
       ]
     }
