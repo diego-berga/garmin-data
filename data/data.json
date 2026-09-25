@@ -1,21 +1,50 @@
 {
-  "last_updated": "2026-09-24T09:38:39.056637",
+  "last_updated": "2026-09-25T09:55:45.784818",
   "current_metrics": {
     "vo2max_running": null,
-    "race_prediction_5k_sec": 1139,
-    "race_prediction_10k_sec": 2403,
-    "race_prediction_half_marathon_sec": 5500,
-    "race_prediction_marathon_sec": 12399,
+    "race_prediction_5k_sec": 1140,
+    "race_prediction_10k_sec": 2405,
+    "race_prediction_half_marathon_sec": 5502,
+    "race_prediction_marathon_sec": 12404,
     "endurance_score": null,
     "hill_score": null
   },
   "daily": [
     {
+      "date": "2026-09-25",
+      "resting_hr": 55,
+      "steps": 58,
+      "calories_total": 942.0,
+      "calories_active": 0.0,
+      "floors_climbed": null,
+      "intensity_minutes_moderate": null,
+      "intensity_minutes_vigorous": null,
+      "sleep_hours": 8.47,
+      "sleep_score": 71,
+      "sleep_deep_min": 87.0,
+      "sleep_light_min": 361.0,
+      "sleep_rem_min": 60.0,
+      "sleep_awake_min": 40.0,
+      "hrv": 70,
+      "hrv_status": "BALANCED",
+      "body_battery_min": 23,
+      "body_battery_max": 88,
+      "body_battery_charged": 65,
+      "body_battery_drained": 1,
+      "stress_avg": 17,
+      "stress_max": 78,
+      "respiration_avg": 15.0,
+      "spo2_avg": null,
+      "spo2_lowest": null,
+      "training_readiness_score": 62,
+      "training_readiness_level": "MODERATE"
+    },
+    {
       "date": "2026-09-24",
       "resting_hr": 50,
-      "steps": 1218,
-      "calories_total": 1042.0,
-      "calories_active": 10.0,
+      "steps": 4537,
+      "calories_total": 2891.0,
+      "calories_active": 705.0,
       "floors_climbed": null,
       "intensity_minutes_moderate": null,
       "intensity_minutes_vigorous": null,
@@ -27,17 +56,17 @@
       "sleep_awake_min": 25.0,
       "hrv": 69,
       "hrv_status": "BALANCED",
-      "body_battery_min": 29,
+      "body_battery_min": 24,
       "body_battery_max": 94,
       "body_battery_charged": 65,
-      "body_battery_drained": 18,
-      "stress_avg": 18,
+      "body_battery_drained": 70,
+      "stress_avg": 27,
       "stress_max": 93,
       "respiration_avg": 14.0,
       "spo2_avg": null,
       "spo2_lowest": null,
-      "training_readiness_score": 46,
-      "training_readiness_level": "LOW"
+      "training_readiness_score": 54,
+      "training_readiness_level": "MODERATE"
     },
     {
       "date": "2026-09-23",
@@ -1720,38 +1749,87 @@
       "spo2_lowest": null,
       "training_readiness_score": 34,
       "training_readiness_level": "LOW"
-    },
-    {
-      "date": "2026-07-27",
-      "resting_hr": 54,
-      "steps": 26576,
-      "calories_total": 4015.0,
-      "calories_active": 1805.0,
-      "floors_climbed": null,
-      "intensity_minutes_moderate": null,
-      "intensity_minutes_vigorous": null,
-      "sleep_hours": 8.08,
-      "sleep_score": 82,
-      "sleep_deep_min": 107.0,
-      "sleep_light_min": 320.0,
-      "sleep_rem_min": 58.0,
-      "sleep_awake_min": 1.0,
-      "hrv": 56,
-      "hrv_status": "BALANCED",
-      "body_battery_min": 5,
-      "body_battery_max": 69,
-      "body_battery_charged": 64,
-      "body_battery_drained": 56,
-      "stress_avg": 27,
-      "stress_max": 98,
-      "respiration_avg": 14.0,
-      "spo2_avg": null,
-      "spo2_lowest": null,
-      "training_readiness_score": 18,
-      "training_readiness_level": "POOR"
     }
   ],
   "activities": [
+    {
+      "id": 24484643248,
+      "date": "2026-09-24",
+      "type": "cycling",
+      "name": "Ranica Ciclismo",
+      "distance_km": 27.99,
+      "duration_min": 68.3,
+      "avg_pace_min_km": "2:26",
+      "avg_hr": 144.0,
+      "max_hr": 165.0,
+      "elevation_gain": 200.0,
+      "elevation_loss": 195.0,
+      "calories": 733.0,
+      "avg_cadence": null,
+      "vo2max_estimate": null,
+      "training_effect_aerobic": 2.5999999046325684,
+      "training_effect_anaerobic": 0.10000000149011612,
+      "hr_zones": [
+        {
+          "zone": 1,
+          "seconds": 1305.982
+        },
+        {
+          "zone": 2,
+          "seconds": 2750.312
+        },
+        {
+          "zone": 3,
+          "seconds": 0.0
+        },
+        {
+          "zone": 4,
+          "seconds": 0.0
+        },
+        {
+          "zone": 5,
+          "seconds": 0.0
+        }
+      ],
+      "splits": [
+        {
+          "lap": 1,
+          "distance_km": 5.0,
+          "duration_min": 13.0,
+          "avg_hr": 128.0
+        },
+        {
+          "lap": 2,
+          "distance_km": 5.0,
+          "duration_min": 13.14,
+          "avg_hr": 144.0
+        },
+        {
+          "lap": 3,
+          "distance_km": 5.0,
+          "duration_min": 13.4,
+          "avg_hr": 146.0
+        },
+        {
+          "lap": 4,
+          "distance_km": 5.0,
+          "duration_min": 10.92,
+          "avg_hr": 149.0
+        },
+        {
+          "lap": 5,
+          "distance_km": 5.0,
+          "duration_min": 10.38,
+          "avg_hr": 154.0
+        },
+        {
+          "lap": 6,
+          "distance_km": 2.99,
+          "duration_min": 7.51,
+          "avg_hr": 150.0
+        }
+      ]
+    },
     {
       "id": 24470819900,
       "date": "2026-09-23",
@@ -4251,54 +4329,6 @@
           "distance_km": 0.14,
           "duration_min": 0.68,
           "avg_hr": 188.0
-        }
-      ]
-    },
-    {
-      "id": 23656868328,
-      "date": "2026-07-19",
-      "type": "strength_training",
-      "name": "Pesi",
-      "distance_km": null,
-      "duration_min": 28.3,
-      "avg_pace_min_km": null,
-      "avg_hr": 131.0,
-      "max_hr": 158.0,
-      "elevation_gain": null,
-      "elevation_loss": null,
-      "calories": 282.0,
-      "avg_cadence": null,
-      "vo2max_estimate": null,
-      "training_effect_aerobic": 2.0999999046325684,
-      "training_effect_anaerobic": 0.4000000059604645,
-      "hr_zones": [
-        {
-          "zone": 1,
-          "seconds": 914.186
-        },
-        {
-          "zone": 2,
-          "seconds": 585.799
-        },
-        {
-          "zone": 3,
-          "seconds": 0.0
-        },
-        {
-          "zone": 4,
-          "seconds": 0.0
-        },
-        {
-          "zone": 5,
-          "seconds": 0.0
-        }
-      ],
-      "splits": [
-        {
-          "lap": 1,
-          "distance_km": null,
-          "duration_min": 28.28,
-          "avg_hr": 131.0
         }
       ]
     }
