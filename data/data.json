@@ -1,21 +1,50 @@
 {
-  "last_updated": "2026-10-16T09:24:49.572549",
+  "last_updated": "2026-10-17T08:56:16.698188",
   "current_metrics": {
     "vo2max_running": null,
-    "race_prediction_5k_sec": 1088,
+    "race_prediction_5k_sec": 1087,
     "race_prediction_10k_sec": 2269,
-    "race_prediction_half_marathon_sec": 5204,
-    "race_prediction_marathon_sec": 11602,
+    "race_prediction_half_marathon_sec": 5194,
+    "race_prediction_marathon_sec": 11567,
     "endurance_score": null,
     "hill_score": null
   },
   "daily": [
     {
+      "date": "2026-10-17",
+      "resting_hr": 58,
+      "steps": 797,
+      "calories_total": 904.0,
+      "calories_active": 16.0,
+      "floors_climbed": null,
+      "intensity_minutes_moderate": null,
+      "intensity_minutes_vigorous": null,
+      "sleep_hours": 7.58,
+      "sleep_score": 77,
+      "sleep_deep_min": 88.0,
+      "sleep_light_min": 324.0,
+      "sleep_rem_min": 43.0,
+      "sleep_awake_min": 32.0,
+      "hrv": 62,
+      "hrv_status": "UNBALANCED",
+      "body_battery_min": 21,
+      "body_battery_max": 83,
+      "body_battery_charged": 62,
+      "body_battery_drained": 8,
+      "stress_avg": 19,
+      "stress_max": 89,
+      "respiration_avg": 14.0,
+      "spo2_avg": null,
+      "spo2_lowest": null,
+      "training_readiness_score": 2,
+      "training_readiness_level": "POOR"
+    },
+    {
       "date": "2026-10-16",
       "resting_hr": 58,
-      "steps": 217,
-      "calories_total": 1034.0,
-      "calories_active": 1.0,
+      "steps": 9978,
+      "calories_total": 3065.0,
+      "calories_active": 879.0,
       "floors_climbed": null,
       "intensity_minutes_moderate": null,
       "intensity_minutes_vigorous": null,
@@ -29,10 +58,10 @@
       "hrv_status": "LOW",
       "body_battery_min": 5,
       "body_battery_max": 68,
-      "body_battery_charged": 65,
-      "body_battery_drained": 2,
-      "stress_avg": 20,
-      "stress_max": 67,
+      "body_battery_charged": 67,
+      "body_battery_drained": 51,
+      "stress_avg": 28,
+      "stress_max": 91,
       "respiration_avg": 13.0,
       "spo2_avg": null,
       "spo2_lowest": null,
@@ -1720,38 +1749,153 @@
       "spo2_lowest": null,
       "training_readiness_score": 1,
       "training_readiness_level": "POOR"
-    },
-    {
-      "date": "2026-08-18",
-      "resting_hr": 52,
-      "steps": 34770,
-      "calories_total": 5559.0,
-      "calories_active": 3349.0,
-      "floors_climbed": null,
-      "intensity_minutes_moderate": null,
-      "intensity_minutes_vigorous": null,
-      "sleep_hours": 4.02,
-      "sleep_score": 46,
-      "sleep_deep_min": 95.0,
-      "sleep_light_min": 140.0,
-      "sleep_rem_min": 6.0,
-      "sleep_awake_min": 1.0,
-      "hrv": 70,
-      "hrv_status": "BALANCED",
-      "body_battery_min": 5,
-      "body_battery_max": 68,
-      "body_battery_charged": 48,
-      "body_battery_drained": 70,
-      "stress_avg": 45,
-      "stress_max": 99,
-      "respiration_avg": 15.0,
-      "spo2_avg": null,
-      "spo2_lowest": null,
-      "training_readiness_score": 1,
-      "training_readiness_level": "POOR"
     }
   ],
   "activities": [
+    {
+      "id": 24746113213,
+      "date": "2026-10-16",
+      "type": "running",
+      "name": "Alzano Lombardo Corsa",
+      "distance_km": 8.03,
+      "duration_min": 38.5,
+      "avg_pace_min_km": "4:47",
+      "avg_hr": 166.0,
+      "max_hr": 174.0,
+      "elevation_gain": 35.0,
+      "elevation_loss": 38.0,
+      "calories": 578.0,
+      "avg_cadence": 166.09375,
+      "vo2max_estimate": 58.0,
+      "training_effect_aerobic": 3.5,
+      "training_effect_anaerobic": 0.0,
+      "hr_zones": [
+        {
+          "zone": 1,
+          "seconds": 47.773
+        },
+        {
+          "zone": 2,
+          "seconds": 647.934
+        },
+        {
+          "zone": 3,
+          "seconds": 1611.92
+        },
+        {
+          "zone": 4,
+          "seconds": 0.0
+        },
+        {
+          "zone": 5,
+          "seconds": 0.0
+        }
+      ],
+      "splits": [
+        {
+          "lap": 1,
+          "distance_km": 1.0,
+          "duration_min": 5.12,
+          "avg_hr": 151.0
+        },
+        {
+          "lap": 2,
+          "distance_km": 1.0,
+          "duration_min": 5.19,
+          "avg_hr": 162.0
+        },
+        {
+          "lap": 3,
+          "distance_km": 1.0,
+          "duration_min": 4.87,
+          "avg_hr": 167.0
+        },
+        {
+          "lap": 4,
+          "distance_km": 1.0,
+          "duration_min": 4.85,
+          "avg_hr": 168.0
+        },
+        {
+          "lap": 5,
+          "distance_km": 1.0,
+          "duration_min": 4.68,
+          "avg_hr": 169.0
+        },
+        {
+          "lap": 6,
+          "distance_km": 1.0,
+          "duration_min": 4.59,
+          "avg_hr": 171.0
+        },
+        {
+          "lap": 7,
+          "distance_km": 1.0,
+          "duration_min": 4.52,
+          "avg_hr": 170.0
+        },
+        {
+          "lap": 8,
+          "distance_km": 1.0,
+          "duration_min": 4.56,
+          "avg_hr": 170.0
+        },
+        {
+          "lap": 9,
+          "distance_km": 0.03,
+          "duration_min": 0.1,
+          "avg_hr": 170.0
+        }
+      ]
+    },
+    {
+      "id": 24745595772,
+      "date": "2026-10-16",
+      "type": "strength_training",
+      "name": "Pesi",
+      "distance_km": null,
+      "duration_min": 35.6,
+      "avg_pace_min_km": null,
+      "avg_hr": 120.0,
+      "max_hr": 146.0,
+      "elevation_gain": null,
+      "elevation_loss": null,
+      "calories": 269.0,
+      "avg_cadence": null,
+      "vo2max_estimate": null,
+      "training_effect_aerobic": 1.2000000476837158,
+      "training_effect_anaerobic": 0.0,
+      "hr_zones": [
+        {
+          "zone": 1,
+          "seconds": 1927.07
+        },
+        {
+          "zone": 2,
+          "seconds": 92.151
+        },
+        {
+          "zone": 3,
+          "seconds": 0.0
+        },
+        {
+          "zone": 4,
+          "seconds": 0.0
+        },
+        {
+          "zone": 5,
+          "seconds": 0.0
+        }
+      ],
+      "splits": [
+        {
+          "lap": 1,
+          "distance_km": null,
+          "duration_min": 35.56,
+          "avg_hr": 120.0
+        }
+      ]
+    },
     {
       "id": 24731136772,
       "date": "2026-10-15",
@@ -4191,186 +4335,6 @@
           "distance_km": 0.76,
           "duration_min": 3.05,
           "avg_hr": 161.0
-        }
-      ]
-    },
-    {
-      "id": 24213368505,
-      "date": "2026-09-02",
-      "type": "running",
-      "name": "Alzano Lombardo Corsa",
-      "distance_km": 10.02,
-      "duration_min": 51.5,
-      "avg_pace_min_km": "5:08",
-      "avg_hr": 158.0,
-      "max_hr": 168.0,
-      "elevation_gain": 52.0,
-      "elevation_loss": 52.0,
-      "calories": 710.0,
-      "avg_cadence": 162.046875,
-      "vo2max_estimate": 57.0,
-      "training_effect_aerobic": 3.4000000953674316,
-      "training_effect_anaerobic": 0.0,
-      "hr_zones": [
-        {
-          "zone": 1,
-          "seconds": 92.001
-        },
-        {
-          "zone": 2,
-          "seconds": 2989.454
-        },
-        {
-          "zone": 3,
-          "seconds": 1.0
-        },
-        {
-          "zone": 4,
-          "seconds": 0.0
-        },
-        {
-          "zone": 5,
-          "seconds": 0.0
-        }
-      ],
-      "splits": [
-        {
-          "lap": 1,
-          "distance_km": 1.0,
-          "duration_min": 5.26,
-          "avg_hr": 143.0
-        },
-        {
-          "lap": 2,
-          "distance_km": 1.0,
-          "duration_min": 5.48,
-          "avg_hr": 156.0
-        },
-        {
-          "lap": 3,
-          "distance_km": 1.0,
-          "duration_min": 5.26,
-          "avg_hr": 158.0
-        },
-        {
-          "lap": 4,
-          "distance_km": 1.0,
-          "duration_min": 5.22,
-          "avg_hr": 159.0
-        },
-        {
-          "lap": 5,
-          "distance_km": 1.0,
-          "duration_min": 5.11,
-          "avg_hr": 159.0
-        },
-        {
-          "lap": 6,
-          "distance_km": 1.0,
-          "duration_min": 5.09,
-          "avg_hr": 159.0
-        },
-        {
-          "lap": 7,
-          "distance_km": 1.0,
-          "duration_min": 4.98,
-          "avg_hr": 158.0
-        },
-        {
-          "lap": 8,
-          "distance_km": 1.0,
-          "duration_min": 5.08,
-          "avg_hr": 161.0
-        },
-        {
-          "lap": 9,
-          "distance_km": 1.0,
-          "duration_min": 4.97,
-          "avg_hr": 160.0
-        },
-        {
-          "lap": 10,
-          "distance_km": 1.0,
-          "duration_min": 4.99,
-          "avg_hr": 163.0
-        },
-        {
-          "lap": 11,
-          "distance_km": 0.02,
-          "duration_min": 0.09,
-          "avg_hr": 162.0
-        }
-      ]
-    },
-    {
-      "id": 24186893086,
-      "date": "2026-08-31",
-      "type": "cycling",
-      "name": "Alzano Lombardo Ciclismo",
-      "distance_km": 20.24,
-      "duration_min": 77.4,
-      "avg_pace_min_km": "3:49",
-      "avg_hr": 152.0,
-      "max_hr": 188.0,
-      "elevation_gain": 621.0,
-      "elevation_loss": 619.0,
-      "calories": 819.0,
-      "avg_cadence": null,
-      "vo2max_estimate": null,
-      "training_effect_aerobic": 4.0,
-      "training_effect_anaerobic": 1.399999976158142,
-      "hr_zones": [
-        {
-          "zone": 1,
-          "seconds": 1554.472
-        },
-        {
-          "zone": 2,
-          "seconds": 1280.952
-        },
-        {
-          "zone": 3,
-          "seconds": 1364.005
-        },
-        {
-          "zone": 4,
-          "seconds": 320.862
-        },
-        {
-          "zone": 5,
-          "seconds": 0.0
-        }
-      ],
-      "splits": [
-        {
-          "lap": 1,
-          "distance_km": 5.0,
-          "duration_min": 22.19,
-          "avg_hr": 152.0
-        },
-        {
-          "lap": 2,
-          "distance_km": 5.0,
-          "duration_min": 26.22,
-          "avg_hr": 175.0
-        },
-        {
-          "lap": 3,
-          "distance_km": 5.0,
-          "duration_min": 8.99,
-          "avg_hr": 140.0
-        },
-        {
-          "lap": 4,
-          "distance_km": 5.0,
-          "duration_min": 11.52,
-          "avg_hr": 135.0
-        },
-        {
-          "lap": 5,
-          "distance_km": 0.24,
-          "duration_min": 8.48,
-          "avg_hr": 120.0
         }
       ]
     }
